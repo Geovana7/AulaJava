@@ -20,13 +20,15 @@ public class Aula5 {
         int resultadoB = a - c;
         int resultadoC = a * c;
         int resultadoD = a / c;
-        int resultadoE = b + d;
         int resultadoF = a % c;
         
         System.out.println(a);
         System.out.println(b);
-        System.out.println(resultadoA);
-        System.out.println(resultadoF);
+        System.out.println("Soma: " + resultadoA);
+        System.out.println("Subtração:" + resultadoB);
+        System.out.println("Multiplicação:" + resultadoC);
+        System.out.println("Divisão:" + resultadoD);
+        System.out.println("Resto:" + resultadoF);
         
     }
     
